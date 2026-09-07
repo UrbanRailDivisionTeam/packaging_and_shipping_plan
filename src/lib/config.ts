@@ -8,8 +8,10 @@ export const CQ_OPENAPI = {
 }
 
 export const CQ_API_PATH = {
-    // 在此登记本项目的 kapi 路径，例如：
-    // packing_plan: '/kapi/v2/.../packing_plan',
+    packcg_protest_select: '/kapi/v2/crrc/crrc_process_module_const/crrc_packcg_protest/select',
+    packcg_protest_save: '/kapi/v2/crrc/crrc_process_module_const/crrc_packcg_protest/save',
+    packcg_protest_delete: '/kapi/v2/crrc/crrc_process_module_const/crrc_packcg_protest/delete',
+    current_user: '/kapi/v2/crrc/crrc_itsm/get_current_user/info',
 }
 
 export type CqPageResponse<T> = {

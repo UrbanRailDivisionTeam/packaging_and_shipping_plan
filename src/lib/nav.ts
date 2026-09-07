@@ -1,7 +1,7 @@
-export type NavId = 'home'
+export type NavId = 'bills'
 
-export const PRIMARY_NAV: { id: NavId; label: string }[] = [{ id: 'home', label: '首页' }]
+export const PRIMARY_NAV: { id: NavId; label: string }[] = [{ id: 'bills', label: '单据列表' }]
 
 export const NAV_LABEL: Record<NavId, string> = {
-    home: '首页',
+    bills: '单据列表',
 }
